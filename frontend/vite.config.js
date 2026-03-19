@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -7,11 +7,11 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'http://localhost:3000',
+        target: 'https://software-business-assignment-vibe-c.vercel.app/',
         changeOrigin: true
       },
       '/socket.io': {
-        target: 'http://localhost:3000',
+        target: 'https://software-business-assignment-vibe-c.vercel.app/',
         changeOrigin: true,
         ws: true
       }
