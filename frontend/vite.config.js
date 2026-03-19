@@ -10,11 +10,11 @@ export default defineConfig({
         target: 'https://software-business-assignment-vibe-c.vercel.app/',
         changeOrigin: true
       },
-      '/socket.io': {
-        target: 'https://software-business-assignment-vibe-c.vercel.app/',
-        changeOrigin: true,
-        ws: true
-      }
+      // '/socket.io': {
+      //   target: 'https://software-business-assignment-vibe-c.vercel.app/',
+      //   changeOrigin: true,
+      //   ws: true
+      // }
     }
   }
 })
