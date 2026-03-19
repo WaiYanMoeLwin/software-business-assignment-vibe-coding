@@ -1,8 +1,10 @@
 // api/batteryApi.js
 import axios from 'axios';
 
+const API_BASE_URL = 'https://software-business-assignment-vibe-c.vercel.app/api' || '/api';
+
 const api = axios.create({
-  baseURL: '/api',
+  baseURL: API_BASE_URL,
   timeout: 10000
 });
 
